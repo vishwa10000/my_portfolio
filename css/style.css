@@ -1,0 +1,1190 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.head{
+
+    display: flex;
+    padding: 10px;
+    /* background-color: #a3ddf3; */
+    background-color: rgba(255, 255, 255, 0.484);
+}
+main{
+    background: linear-gradient(180deg #695aa6);
+}
+.head h1{
+    color: rgb(86, 135, 152);
+    font-family: "Audiowide", sans-serif;
+}
+.nav-item{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+li:hover a{
+    color: rgba(0, 0, 0, 0.836);
+}
+ul li {
+    list-style: none;
+}
+a{
+    color: #0e8ad8;
+    text-decoration: none;
+}
+.spacer{
+        flex: 1 1 auto;
+}
+.reltv{
+    position: relative;
+}
+
+.bg-img img{
+    width: 100%;
+}
+.text{
+    color: rgb(147, 144, 144);
+    font-size: x-large;
+}
+ .cursive{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.oblique p{
+    
+    color: #695aa6;
+    font-size: xx-large;
+
+}
+.btn a{
+    position: absolute;
+    background-color:  transparent;
+    border-radius: 50px;
+    padding: 12px 15px;
+    /* margin: 15px 0px; */
+    border: 1px solid #695aa6;
+    color: #695aa6;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn:hover a{
+    background-color: #695aa6;
+    color:#f1f1f1;
+    cursor: pointer;
+}
+/* .btn a{
+    width:38%
+} */
+/* .abt img{
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    height:300px;
+    width:300px; */
+/* } */
+.about{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.txt{
+    width: 50%;
+    text-align: justify;
+}
+.txt p{
+    padding: 5px;
+}
+.txt h1{
+    /* width: 40%; */
+    color: #695aa6;
+    padding: 5px;
+}
+
+.btn1 button{
+    background-color:  transparent;
+    border-radius: 50px;
+    padding: 12px 15px;
+    margin: 15px 0px;
+    border: 1px solid #695aa6;
+    color: #695aa6;
+    text-transform: uppercase;
+    text-align: center;
+    
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: #695AA6;
+}
+.btn1:hover a{
+    color:white;
+}
+.btn1:hover button{
+    background-color: #695aa6;
+    color:#f1f1f1;
+    cursor: pointer;
+}
+.btn1{
+   width: 25%;
+}
+
+.aboslute{
+    position: absolute;
+    top: 280px;
+    left: 40%;
+}
+.what{
+    text-align: center;
+   
+}
+.what h1{
+    color: #695aa6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+.image-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+}
+ /* .project{
+    position: relative;
+}  */
+.text-flex{
+    color: #000;
+}
+.absolute1{
+    position: absolute;
+    top: 45%;
+    color: white;
+    left: 50px;
+    opacity: 0;
+    transition: 1s ease;
+}
+ .absolute2{
+    position: absolute;
+    color: white;
+    left:32%;
+    top: 45%;
+    opacity: 0;
+    transition: 1s ease;
+}
+.absolute3{
+    position: absolute;
+    color: white;
+    right: 29%;
+    top: 45%;
+    opacity: 0;
+    transition: 1s ease;
+}
+.absolute4{
+    position: absolute;
+    color: white;
+    top: 45%;
+   left: 81%;
+   opacity: 0;
+   transition: 1s ease;
+}
+.image1:hover .absolute1{
+     opacity: 1;
+}
+.image2:hover .absolute2{
+    opacity: 1;
+}
+.image3:hover .absolute3{
+    opacity: 1;
+}
+.image4:hover .absolute4{
+    opacity: 1;
+}
+.hire-me{
+    background-color: #695AA6;
+    padding: 40px;
+    margin-top: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn12{
+    background-color: white;
+    font-size: large;
+    border-radius: 5px;
+    padding:12px;
+    color: #695AA6;
+    border: transparent;
+    cursor: pointer;
+}
+.communicate{
+    margin-top: 40px;
+    text-align: center;
+}
+.communicate h1{
+     margin-top: 20px;
+     color: #695aa6;
+     text-transform: uppercase;
+}
+.input-bar{
+    padding: 10px;
+    border: 1.5px solid #695aa6;
+    border-radius: 10px;
+    width: 20%;
+}
+.text-bars{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap:10px;
+     height: 10vh;
+     flex-wrap: wrap;
+}
+.message-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message-box textarea{
+    border: 1.5px solid #695aa6;
+    border-radius: 4px;
+    height: 200px;
+    width: 550px;
+}
+.btn2 button{
+    background-color:  transparent;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin: 15px 0px;
+    border: 1px solid #695aa6;
+    color: #695aa6;
+    text-transform: uppercase;
+}
+.btn2:hover button{
+    background-color: #695aa6;
+    color:#f1f1f1;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #000000d6;
+}
+.iconic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.iconic i{
+    display: inline;
+    font-size: 20px;
+    color: #695AA6;
+    border: 2px solid #695AA6;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.iconic i:hover{
+    background-color: #695AA6;
+    color: white;
+}
+.copy{
+    /* margin-top: 2rem; */
+    width: 100%;
+    color: white;
+}
+ @media (min-width:320px) and (max-width:480px){
+    .abt1 img{
+        width: 100%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .abt    {
+        display: none;
+    }
+    .txt{
+        width: 100%;
+    }
+    .text{
+        /* position: absolute; */
+        font-size: 10px;
+        
+    }
+    .oblique i{
+        /* position: absolute; */
+        font-size: 17px;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 150px;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hire-me{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn12{
+        margin-top: 15px;
+    }
+    .image-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .absolute1{
+        position: absolute;
+        left: 20%;
+        top: 125px;
+    }
+    .absolute2{
+        position: absolute;
+        left: 21%;
+        top: 36%;
+    }
+    .absolute3{
+        left: 24%;
+        top: 60%;
+        width: 200px;
+    }
+    .absolute4{
+        top: 86%;
+        left: 20%;
+    }
+    .message-box textarea{
+        /* max-width: fit-content; */
+        width: 94%;
+    }
+ .input-bar{
+    width: 41%;
+ }  
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+         & .copy{
+            width: 59%;
+        }
+    }
+}
+  
+
+
+@media (min-width:481px) and (max-width:768px){
+    .abt    {
+        display: none;
+    }
+    .txt{
+        width: 100%;
+    }
+    .text{
+        /* position: absolute; */
+        font-size: 20px;
+        
+    }
+    .oblique i{
+        /* position: absolute; */
+        font-size: 27px;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 150px;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .absolute1{
+        position: absolute;
+        left: 38%;
+        top: 125px;
+    }
+    .absolute2{
+        position: absolute;
+        left: 38%;
+        top: 35%;
+    }
+    .absolute3{
+        left: 34%;
+        top: 60%;
+    }
+    .absolute4{
+        top: 86%;
+        left: 36%;
+    }
+    .message-box textarea{
+        /* max-width: fit-content; */
+        width: 95%;
+    }
+ .input-bar{
+    width: 44%;
+ }  
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     & .copy{
+        width: 50%;
+        align-items: center;
+    }
+}
+}
+ @media  (min-width:769px) and (max-width:1024px)   {
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+    .image-flex img{
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+  
+    .absolute1{
+        
+        position: absolute;
+        left: 30%;
+        top: 11%;
+        font-size: xx-large;
+    }
+    .absolute2{
+        left: 30%;
+        top: 35%;
+        font-size: xx-large;
+    }
+    .absolute3{
+         left: 30%;
+         top: 59%;
+         font-size: xx-large;
+         width: 50%;
+    }
+    .absolute4{
+        top: 86%;
+        left: 34%;
+        font-size: xx-large;
+    }   
+    .message-box textarea{
+        /* max-width: fit-content; */
+        width: 70%;
+    }
+ .input-bar{
+    width: 32%;
+ }  
+}
+@media  (min-width:769px) and (max-width:1024px)   {
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* gap: 10px; */
+    }
+    .image-flex img{
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+  
+    .absolute1{
+        
+        position: absolute;
+        left: 30%;
+        top: 11%;
+        font-size: xx-large;
+    }
+    .absolute2{
+        left: 30%;
+        top: 35%;
+        font-size: xx-large;
+    }
+    .absolute3{
+         left: 30%;
+         top: 59%;
+         font-size: xx-large;
+         width: 50%;
+    }
+    .absolute4{
+        top: 86%;
+        left: 34%;
+        font-size: xx-large;
+    }   
+    .message-box textarea{
+        /* max-width: fit-content; */
+        width: 70%;
+    }
+ .input-bar{
+    width: 32%;
+ }  
+}  
+@media  (min-width : 1024px) and (max-width:1200px){
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        width: 100%;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        width: 98%;
+        object-fit: cover;
+    }
+    .absolute1{
+        
+        position: absolute;
+        left: 20px;
+        top: 45%;
+    }
+    .absolute2{
+        left: 30%;
+        top: 130px;
+    }
+    .absolute3{
+         left: 54%;
+         top: 44%;
+         width: 26%;
+    }
+    .absolute4{
+        top: 45%;
+        left: 79%;
+    }   
+}  
+
+
+/* @media  (max-width : 820px){
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        object-fit: cover;
+    }
+    .absolute1{
+        
+        position: absolute;
+        left: 130px;
+        top: 30%;
+    }
+    .absolute2{
+        left: 58%;
+        top: 210px;
+    }
+    .absolute3{
+         left: 120px;
+         top: 75%;
+         width: 26%;
+    }
+    .absolute4{
+        top: 75%;
+        left: 59%;
+    }
+    
+}                                                   
+@media  (max-width : 1024px){
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        object-fit: cover;
+    }
+    .absolute1{
+        
+        position: absolute;
+        left: 130px;
+        top: 30%;
+    }
+    .absolute2{
+        left: 58%;
+        top: 210px;
+    }
+    .absolute3{
+         left: 120px;
+         top: 75%;
+         width: 26%;
+    }
+    .absolute4{
+        top: 75%;
+        left: 59%;
+    }   
+}  
+@media  (max-width : 912px){
+    .abt    {
+        display: none;
+    }
+    .aboslute{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    } 
+    .btn button{
+        width: 90%;
+    }
+    .abt img{
+        position: absolute;   
+         width: 100px;
+        height: 100px; 
+        top: 75px;
+    }
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn1 button{
+        left: 20px;
+        bottom: -50px;
+        width: 10rem;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .image-flex img{
+        object-fit: cover;
+    }
+    .absolute1{
+        
+        position: absolute;
+        left: 190px;
+        top: 30%;
+    }
+    .absolute2{
+        left: 55%;
+        top: 180px;
+    }
+    .absolute3{
+         left: 200px;
+         top: 75%;
+         width: 26%;
+    }
+    .absolute4{
+        top: 75%;
+        left: 59%;
+    }   
+}
+@media  (max-width:540px){
+    .aboslute{
+        left:40px;
+    }
+    .text{
+        font-size: large;
+    }
+    .txt h1{
+        width: 50%;
+    }
+    .btn1 button{
+        margin-left: -50px;
+    }
+    .absolute1{
+        position: absolute;
+        left: 180px;
+        top: 10%;
+    }
+    .absolute2{
+        left: 31%;
+        top: 450px;
+    }
+    .absolute3{
+         left: 200px;
+         top: 60%;
+    }
+    .absolute4{
+        top: 85%;
+        left:30%;
+    }   
+    .message-box textarea{
+        max-width: fit-content;
+        width: 100%;
+    }
+ .input-bar{
+    width: 44%;
+ }  
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     & .copy{
+        width: 40%;
+    }
+}
+.hr{
+    width: 75%;
+}
+}
+@media  (max-width:412px){
+    .head{
+        width: 100%;
+    }
+    .oblique i{
+        font-size: 20px;
+    }
+    .bg-img{
+        width: 105%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .aboslute{
+        left:40px;
+    }
+    .text{
+        font-size: small;
+        align-items: center;
+    }
+    .txt h1{
+        width: 30%;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+    }
+    .btn1 button{
+        margin-left: -50px;
+    }
+    .absolute1{
+        position: absolute;
+        left: 100px;
+        top: 10%;
+    }
+    .absolute2{
+        left: 31%;
+        top: 450px;
+    }
+    .absolute3{
+         left: 150px;
+         top: 60%;
+    }
+    .absolute4{
+        top: 85%;
+        left:30%;
+    }   
+    .message-box textarea{
+        max-width: fit-content;
+        width: 100%;
+    }
+ .input-bar{
+    width: 43%;
+ }  
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     & .copy{
+        width: 50%;
+    }
+}
+.hr{
+    width: 75%;
+}
+.txt .para{
+    width: 200%;
+}
+.txt h1{
+    width: 143px;
+}
+.hire-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn12{
+   margin: 10px;
+}
+}
+@media  (max-width:430px){
+    .head{
+        width: 100%;
+    }
+    .oblique i{
+        font-size: 20px;
+    }
+    .bg-img{
+        width: 105%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .aboslute{
+        left:40px;
+    }
+    .text{
+        font-size: small;
+        align-items: center;
+    }
+    .txt h1{
+        width: 30%;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+    }
+    .btn1 button{
+        margin-left: -50px;
+    }
+    .absolute1{
+        position: absolute;
+        left: 100px;
+        top: 10%;
+    }
+    .absolute2{
+        left: 31%;
+        top: 450px;
+    }
+    .absolute3{
+         left: 150px;
+         top: 60%;
+    }
+    .absolute4{
+        top: 85%;
+        left:30%;
+    }   
+    .message-box textarea{
+        max-width: fit-content;
+        width: 100%;
+    }
+ .input-bar{
+    width: 43%;
+ }  
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     & .copy{
+        width: 50%;
+    }
+}
+.hr{
+    width: 75%;
+}
+.txt .para{
+    width: 200%;
+}
+.txt h1{
+    width: 143px;
+}
+.hire-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn12{
+   margin: 10px;
+}
+}
+@media  (max-width:390px){
+    .head{
+        width: 100%;
+    }
+    .oblique i{
+        font-size: 20px;
+    }
+    .bg-img{
+        width: 105%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .aboslute{
+        left:40px;
+    }
+    .text{
+        font-size: small;
+        align-items: center;
+    }
+    .txt h1{
+        width: 30%;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+    }
+    .btn1 button{
+        margin-left: -50px;
+    }
+    .absolute1{
+        position: absolute;
+        left: 100px;
+        top: 10%;
+    }
+    .absolute2{
+        left: 31%;
+        top: 450px;
+    }
+    .absolute3{
+         left: 150px;
+         top: 60%;
+    }
+    .absolute4{
+        top: 85%;
+        left:30%;
+    }   
+    .message-box textarea{
+        max-width: fit-content;
+        width: 100%;
+    }
+ .input-bar{
+    width: 43%;
+ }  
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+     & .copy{
+     width: 166px;;
+    }
+}
+.hr{
+    width: 75%;
+}
+.txt .para{
+    width: 200%;
+}
+.txt h1{
+    width: 143px;
+}
+.hire-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn12{
+   margin: 10px;
+}
+} */
+
